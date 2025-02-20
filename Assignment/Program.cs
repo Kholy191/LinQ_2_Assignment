@@ -225,6 +225,17 @@
             //}
 
             #endregion
+
+            #region Q2(Ordering) Uses a custom comparer to do a case-insensitive sort of the words in an array.
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+
+            //var Result = Arr.OrderBy(P => P);
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
