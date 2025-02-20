@@ -356,6 +356,18 @@ namespace Assignment
             //    Console.WriteLine(item);
             //}
             #endregion
+
+
+            #region Q5[Set] Create one sequence that contains the last Three Characters in each name of all customers and products, including any duplicates
+            //var Result = ListGenerator.ProductList
+            //          .Select(p => p.ProductName.Length >= 3 ? p.ProductName[^3..] : p.ProductName)
+            //          .Concat(ListGenerator.CustomerList.Select(c => c.CustomerName.Length >= 3 ? c.CustomerName[^3..] : c.CustomerName));
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
