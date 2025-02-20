@@ -150,6 +150,25 @@
 
             #endregion
 
+            #region Q10(Aggregate) Get the cheapest price among each category's products
+
+            //var Result = ListGenerator.ProductList.Where(p => p.UnitsInStock > 0)
+            //.GroupBy(p => p.Category)
+            //.Select(g => new
+            //{
+            //    Category = g.Key,
+            //    CheapestPrice = g.Min(p => p.UnitPrice)
+            //})
+            //.ToList();
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+
         }
     }
 }
