@@ -315,6 +315,16 @@ namespace Assignment
             //}
 
             #endregion
+
+            /*LINQ - Set Operators*/
+
+            #region Q1[Set] Find the unique Category names from Product List
+            //var Result = ListGenerator.ProductList.Select(P => P.Category).Distinct();
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
