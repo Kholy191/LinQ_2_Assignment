@@ -60,6 +60,25 @@
 
             #endregion
 
+            #region Q3(Aggregate) Return a list of categories and how many products each has
+
+            //var Result = ListGenerator.ProductList
+            //.GroupBy(p => p.Category)
+            //.Select(g => new
+            //{
+            //    Category = g.Key,
+            //    ProductCount = g.Count()
+            //})
+            //.ToList();
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+
         }
     }
 }
