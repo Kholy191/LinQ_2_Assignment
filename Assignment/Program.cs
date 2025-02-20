@@ -29,6 +29,19 @@
             //Console.WriteLine(Result);
 
             #endregion
+
+            /*Aggregate Operators*/
+
+            #region Q1(Aggregate) Uses Count to get the number of odd numbers in the array
+
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var Result = Arr.Where(Num => Num % 2 == 1).Count();
+
+            //Console.WriteLine(Result);
+
+            #endregion
+
         }
     }
 }
