@@ -100,6 +100,17 @@
             //Console.WriteLine(TotalChars);
 
             #endregion
+
+            #region Q6(Aggregate) Get the length of the shortest word in dictionary_english.txt (Read dictionary_english.txt into Array of String First).
+
+            //string filePath = @"Dictonary.txt";
+            //string[] lines = File.ReadAllLines(filePath);
+
+            //var Result = lines.Min(L => L.Length);
+
+            //Console.WriteLine(Result);
+
+            #endregion
         }
     }
 }
