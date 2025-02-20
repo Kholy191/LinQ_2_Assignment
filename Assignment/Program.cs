@@ -78,6 +78,16 @@
 
             #endregion
 
+            #region Q4(Aggregate) Get the total of the numbers in an array.
+
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var Result = Arr.Count();
+
+            //Console.WriteLine(Result);
+
+            #endregion
+
 
         }
     }
