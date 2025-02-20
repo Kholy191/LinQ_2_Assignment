@@ -325,6 +325,17 @@ namespace Assignment
             //    Console.WriteLine(item);
             //}
             #endregion
+
+            #region Q2[Set] Produce a Sequence containing the unique first letter from both product and customer names.
+            //var Result = ListGenerator.ProductList
+            //          .Select(p => p.ProductName[0])
+            //          .Union(ListGenerator.CustomerList.Select(c => c.CustomerName[0]))
+            //          .Distinct();
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
