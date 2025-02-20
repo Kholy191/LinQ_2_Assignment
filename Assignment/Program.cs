@@ -300,6 +300,21 @@ namespace Assignment
             //}
 
             #endregion
+
+            #region Q8(Ordering)  Sort first by-word length and then by a case-insensitive descending sort of the words in an array.
+
+            //string[] Arr = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
+            //var Result = Arr
+            //      .Where(word => word.Length > 1 && word[1] == 'i')
+            //     .Reverse()
+            //    .ToArray();
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
