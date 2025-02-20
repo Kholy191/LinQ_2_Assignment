@@ -122,6 +122,16 @@
 
             #endregion
 
+            #region Q8(Aggregate) Get the average length of the words in dictionary_english.txt (Read dictionary_english.txt into Array of String First).
+            //string filePath = @"Dictonary.txt";
+            //string[] lines = File.ReadAllLines(filePath);
+
+            //var Result = lines.Average(L => L.Length);
+
+            //Console.WriteLine(Result);
+
+            #endregion
+
         }
     }
 }
