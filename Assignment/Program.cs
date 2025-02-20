@@ -388,6 +388,18 @@ namespace Assignment
             //    Console.WriteLine(Result);
             //}
             #endregion
+
+            #region Q3[Quantifiers] Return a grouped a list of products only for categories that have at least one product that is out of stock.
+
+            //var Result = ListGenerator.ProductList
+            //          .GroupBy(p => p.Category)
+            //          .Where(g => g.All(p => p.UnitsInStock > 0));
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(Result);
+            //}
+            #endregion
         }
     }
 }
