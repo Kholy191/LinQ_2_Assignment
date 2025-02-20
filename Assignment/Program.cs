@@ -199,6 +199,23 @@
 
             #endregion
 
+            #region Q14(Aggregate) Get the average price of each category's products.
+
+            //var mostExpensiveProductsByCategory = ListGenerator.ProductList
+            //           .GroupBy(p => p.Category)
+            //           .Select(g => new
+            //           {
+            //               Category = g.Key,
+            //               MostExpensiveProducts = g.Average(P => P.UnitPrice)
+            //           })
+            //           .ToList();
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
         }
     }
 }
