@@ -88,7 +88,18 @@
 
             #endregion
 
+            #region Q4(Aggregate) Get the total of the numbers in an array.
 
+            //string filePath = @"Dictonary.txt";
+            //string[] lines = File.ReadAllLines(filePath);
+            //int TotalChars = 0;
+            //foreach (var item in lines)
+            //{
+            //    TotalChars += item.Length;
+            //}
+            //Console.WriteLine(TotalChars);
+
+            #endregion
         }
     }
 }
