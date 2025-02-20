@@ -168,6 +168,25 @@
 
             #endregion
 
+            #region Q12(Aggregate) Get the products with the cheapest price in each category (Use Let)
+
+            var Result = ListGenerator.ProductList.Where(p => p.UnitsInStock > 0)
+            .GroupBy(p => p.Category)
+            .Select(g => new
+            {
+                Category = g.Key,
+                CheapestPrice = g.Max(p => p.UnitPrice)
+            })
+            .ToList();
+
+            foreach (var item in Result)
+            {
+                Console.WriteLine(item);
+            }
+
+            #endregion
+
+
 
         }
     }
