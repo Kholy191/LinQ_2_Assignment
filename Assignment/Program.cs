@@ -346,6 +346,16 @@ namespace Assignment
             //    Console.WriteLine(item);
             //}
             #endregion
+
+            #region Q4[Set] Create one sequence that contains the first letters of product names that are not also first letters of customer names.
+            //var Result = ListGenerator.ProductList
+            //          .Select(p => p.ProductName[0])
+            //          .Except(ListGenerator.CustomerList.Select(c => c.CustomerName[0]));
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
