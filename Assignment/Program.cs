@@ -20,7 +20,15 @@
 
             #endregion
 
+            #region Q3(Element) Retrieve the second number greater than 5 
 
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var Result = Arr.Where(Num => Num > 5).ElementAt(1);
+
+            //Console.WriteLine(Result);
+
+            #endregion
         }
     }
 }
