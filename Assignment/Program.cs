@@ -236,6 +236,17 @@
             //}
 
             #endregion
+
+            #region Q3(Ordering)  Sort a list of products by units in stock from highest to lowest.
+
+            //var Result = ListGenerator.ProductList.OrderByDescending(P => P.UnitsInStock);
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
