@@ -336,6 +336,16 @@ namespace Assignment
             //    Console.WriteLine(item);
             //}
             #endregion
+
+            #region Q3[Set] Create one sequence that contains the common first letter from both product and customer names.
+            //var Result = ListGenerator.ProductList
+            //          .Select(p => p.ProductName[0])
+            //          .Intersect(ListGenerator.CustomerList.Select(c => c.CustomerName[0]));
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            #endregion
         }
     }
 }
