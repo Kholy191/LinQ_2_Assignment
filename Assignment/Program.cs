@@ -287,6 +287,19 @@ namespace Assignment
             //}
 
             #endregion
+
+            #region Q7(Ordering)  Sort first by-word length and then by a case-insensitive descending sort of the words in an array.
+
+
+            //String[] Arr = { "aPPLE", "AbAcUs", "bRaNcH", "BlUeBeRrY", "ClOvEr", "cHeRry" };
+            //var Result = Arr.OrderByDescending(P => P.Length).ThenByDescending(P => P, StringComparer.OrdinalIgnoreCase);
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
