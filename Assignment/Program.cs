@@ -186,7 +186,18 @@
 
             #endregion
 
+            #region Q13(Aggregate) Get the products with the cheapest price in each category (Use Let)
 
+            //var mostExpensiveProductsByCategory = ListGenerator.ProductList
+            //           .GroupBy(p => p.Category)
+            //           .Select(g => new
+            //           {
+            //               Category = g.Key,
+            //               MostExpensiveProducts = g.Where(p => p.UnitPrice == g.Max(p2 => p2.UnitPrice)).ToList()
+            //           })
+            //           .ToList();
+
+            #endregion
 
         }
     }
