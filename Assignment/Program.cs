@@ -42,6 +42,24 @@
 
             #endregion
 
+            #region Q2(Aggregate) Return a list of customers and how many orders each has.
+
+            //var Result = ListGenerator.CustomerList
+            //.GroupBy(C => C.CustomerID)
+            //.Select(g => new
+            //{
+            //    CustomerId = g.Key,
+            //    OrderCount = g.Count()
+            //})
+            //.ToList();
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
         }
     }
 }
