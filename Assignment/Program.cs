@@ -132,6 +132,24 @@
 
             #endregion
 
+            #region Q9(Aggregate) Get the total units in stock for each product category.
+
+            //var Result = ListGenerator.ProductList.Where(p => p.UnitsInStock > 0)
+            //.GroupBy(p => p.Category)
+            //.Select(g => new
+            //{
+            //    Category = g.Key,
+            //    ProductCount = g.Count()
+            //})
+            //.ToList();
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
         }
     }
 }
