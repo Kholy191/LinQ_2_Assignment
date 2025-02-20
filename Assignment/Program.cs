@@ -276,7 +276,17 @@ namespace Assignment
 
             #endregion
 
+            #region Q6(Ordering) 6. Sort a list of products, first by category, and then by unit price, from highest to lowest.
 
+
+            //var Result = ListGenerator.ProductList.OrderByDescending(P => P.Category).ThenByDescending(p => p.UnitPrice);
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
