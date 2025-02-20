@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Threading;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -240,6 +242,19 @@
             #region Q3(Ordering)  Sort a list of products by units in stock from highest to lowest.
 
             //var Result = ListGenerator.ProductList.OrderByDescending(P => P.UnitsInStock);
+
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
+
+            #region Q4(Ordering)  Sort a list of digits, first by length of their name, and then alphabetically by the name itself.
+
+
+            //string[] Arr = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+            //var Result = Arr.OrderBy(P => P.Length).ThenBy(P => P);
 
             //foreach (var item in Result)
             //{
