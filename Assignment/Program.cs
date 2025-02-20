@@ -111,6 +111,17 @@
             //Console.WriteLine(Result);
 
             #endregion
+
+            #region Q7(Aggregate) Get the length of the longest word in dictionary_english.txt (Read dictionary_english.txt into Array of String First).
+            //string filePath = @"Dictonary.txt";
+            //string[] lines = File.ReadAllLines(filePath);
+
+            //var Result = lines.Max(L => L.Length);
+
+            //Console.WriteLine(Result);
+
+            #endregion
+
         }
     }
 }
