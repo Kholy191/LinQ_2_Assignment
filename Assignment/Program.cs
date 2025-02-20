@@ -216,6 +216,15 @@
 
             #endregion
 
+            #region Q1(Ordering) Sort a list of products by name
+
+            //var Result = ListGenerator.ProductList.OrderBy(P => P.ProductName);
+            //foreach (var item in Result)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            #endregion
         }
     }
 }
